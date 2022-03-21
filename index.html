@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CvHeidi</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="font.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
     <header>
       <!-- Aquí irá la información del encabezado -->
-      <div>
+      <div id="left">
         <img
           id="foto1"
           alt="Heidifoto"
@@ -19,7 +20,7 @@
           height="200"
         />
       </div>
-      <div>
+      <div id="right">
         <h1 id="MiNombre">Heidi Sánchez</h1>
         <h2>Programadora-Diseñadora y Evaluadora de Proyectos Sociales</h2>
         <p>
@@ -31,78 +32,89 @@
       </div>
     </header>
 
-    <section id="left" class="contenedor">
-      <!-- Aquí irá la información del redes sociales, intereses, portafolio de dev -->
-      <div class="social-bar"></div>
-      <div>
-        <h3>HABILIDADES TECNICAS</h3>
-        <!-- Aquí tablas -->
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JAVASCRIPT</li>
-          <li>Git y GitHub</li>
-          <li>Jira</li>
-        </ul>
-      </div>
+    <nav class="socialbar">
+      <a href="https://www.facebook.com/HKlum85/" class="icon icon-facebook2" target="_blank"></a>
+      <a href="https://twitter.com/heidiletras" class="icon icon-twitter" target="_blank"></a>
+      <a href="https://www.instagram.com/migracionexitosa/" class="icon icon-instagram" target="_blank"></a>
+      <a href="" class="" target=""></a>
+    </nav>
 
-      <div>
-          <h3>ARTICULOS DE BLOGS</h3>
-          <ul>
-            <li><a href="https://blog.icuantix.com/blog/7checklistdelamediciondeimpacto"> Check List de la medición de impacto</li>
-            <li><a href="https://www.venezolanasglobales.org/blog/las-brujas-que-nos-persiguen"> Las brujas que nos persiguen</li>
-            <li><a href="https://blog.icuantix.com/blog/cu%C3%A1ndo-medir-con-encuestas"> ¿Cómo medir con encuestas?</li>
-          </ul>
-      </div>
-    </section>
-
-    <section id="right" class="contenedor">
+    <main>
+      <section id="izquierda" class="contenedor2">
         <div>
-            <h3>FORMACIÓN</h3>
-        <ul> <li>Magíster en Asesoramiento y Desarrollo Humano, UNESR, 2021.</li>
-            <li>Master en innovación social, Learning by helping and Playground, 2021.</li>
-            <li>Diplomado en enseñanza de Español como lengua extranjera, UCV, 2015.</li>
-            <li>Licenciatura en Letras, Universidad Central de Venezuela, 2011.</li>
-       </ul> 
-       </div>
-            <h3>EXPERIENCIA</h3>
-      <ul>
-            <li>Docente desde nivel inicial hasta pregrado.</li>
-            <li>Diseñadora e implementadora de proyectos sociales.</li>
-            <li>Consultora de evaluación de programas y medición de impacto social.</li>
-      </ul>
-
-      <div>
-        
-        <table >
-            <thead>
-              <tr>
-                <th>INTERESES PROFESIONALES</th>
-                <th>INTERESES PERSONALES</th>
-              </tr>
-            </thead><br>
+          <h3>HABILIDADES TECNICAS</h3>
+          <!-- Aquí tablas -->
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>Git y GitHub</li>
+            <li>Jira</li>
+          </ul>
+        </div>
+  
+        <div>
+            <h3>ARTICULOS DE BLOGS</h3>
+            <ul>
+              <li> <a href="https://blog.icuantix.com/blog/7checklistdelamediciondeimpacto"> Check List de la medición de impacto</a></li>
+              <li> <a href="https://www.venezolanasglobales.org/blog/las-brujas-que-nos-persiguen"> Las brujas que nos persiguen</a></li>
+              <li> <a href="https://blog.icuantix.com/blog/cu%C3%A1ndo-medir-con-encuestas"> ¿Cómo medir con encuestas?</a></li>
+            </ul>
+        </div>
+      </section>
+  
+      <section id="derecha" class="contenedor3">
+          <div id="formacion">
+              <h3>FORMACIÓN</h3>
+          <ul>
+               <li>Magíster en Asesoramiento y Desarrollo Humano, UNESR, 2021.</li>
+              <li>Master en innovación social, Learning by helping and Playground, 2021.</li>
+              <li>Diplomado en enseñanza de Español como lengua extranjera, UCV, 2015.</li>
+              <li>Licenciatura en Letras, Universidad Central de Venezuela, 2011.</li>
+         </ul> 
+         </div>
+         <div id="experiencia">
+              <h3>EXPERIENCIA</h3>
+        <ul>
+              <li>Docente</li>
+              <li>Diseñadora e implementadora de proyectos sociales. SOMOS SIGMA</li>
+              <li>Consultora de evaluación de programas y medición de impacto social. CUANTIX</li>
+        </ul>
+         </div>
+  
+        <div id="interes">
           
-            <tbody>
-              <tr>
-                <td>Realizar actividades de voluntariado social</td>
-                <td>Conocer nuevas culturas </td>
-              </tr>
-               <td>Vincularme laboralmente al mundo de la tecnología</td>
-               <td>Desarrollar un catálogo de emprendimiento virtual para migrantes</td>
+          <table >
+              <thead>
+                <tr>
+                  <th>INTERESES PROFESIONALES</th>
+                  <th>INTERESES PERSONALES</th>
                 </tr>
-                </tbody>
-            <script src="script.js"></script>
-          </table>
-      </div>
-    </section>
+              </thead><br>
+            
+              <tbody>
+                <tr>
+                  <td>Realizar actividades de voluntariado social</td>
+                  <td>Conocer nuevas culturas </td>
+                </tr>
+                 <td>Vincularme laboralmente al mundo de la tecnología</td>
+                 <td>Desarrollar un catálogo de emprendimiento virtual para migrantes</td>
+                  </tr>
+                  </tbody>
+              <script src="script.js"></script>
+            </table>
+        </div>
+      </section>
+  
 
+    </main>
+    
     <!-- Este será nuestra caja de contacto -->
-    <div class="flex">
+    <div class="caja">
       <h3>Para leer tus comentarios</h3>
       <input type="email" value="Email"/>
       <textarea name="textarea" rows="10" cols="50">Deja tu mensaje por este canal</textarea>
-      
-      <button>Contactame</button>
+      <button>Contáctame</button>
     </div>
   </body>
 </html>
