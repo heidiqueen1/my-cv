@@ -66,7 +66,10 @@ header{
 #right{
     margin-left: 30px;
 }
-
+button{
+    padding: 20px;
+    
+}
 main {
     display: flex;
     justify-content: center;
