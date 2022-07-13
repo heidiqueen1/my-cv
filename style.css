@@ -67,10 +67,16 @@ header{
     margin-left: 30px;
 }
 button{
-    padding: 20px;     
+    padding: 20px;
+    border-radius: 25px;         
+}
+
+button:hover{
+background-color: #a53f9c;
 }
 #boton{
     text-decoration: none;
+    
 }
 main {
     display: flex;
@@ -114,8 +120,8 @@ padding: 1em 0;
     left: -175px;
     background-color: var(--primary-color);
     transition: var(--transition);
-    animation: skills-bar-fill 5s ease-in-out forwards;
-    
+    /* animation: skills-bar-fill 5s ease-in-out forwards;
+     */
     
 }
 
@@ -129,7 +135,7 @@ padding: 1em 0;
     transform: translateX(30%);
 }
 .skills__bar--35::after {
-    transform: translateX(35%);
+    transform: translateX(75%);
 }
 
 @keyframes skills-bar-fill {
@@ -177,17 +183,21 @@ padding: 1em 0;
     display: flex;
     transition: all .5s;
 }
-.icon-facebook2{
+.icon-linkedin{
     background-color: #2E406E;
     border-radius: 1rem 0 0 0;
 }
 .icon-twitter{
     background: #339DC5;
 }
+.icon-github{
+    background-color: #555055;
+}
 .icon-instagram{
     background-color: #a53f9c;
     border-radius: 0 0 0 1rem;
 }
+
 .icon:hover{
     padding-right: 3rem;
     border-radius: 1rem 0 0 1rem;
