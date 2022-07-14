@@ -71,12 +71,12 @@ button{
     border-radius: 25px;         
 }
 
-button:hover{
-background-color: #a53f9c;
-}
-#boton{
+.boton{
     text-decoration: none;
-    
+}
+
+.boton:hover{
+background-color: #a53f9c;
 }
 main {
     display: flex;
@@ -216,4 +216,7 @@ padding: 1em 0;
 table, th, td{
     border: solid 3px;
     border-color: #a53f9c;
+}
+#boton1{
+    text-decoration: none;
 }

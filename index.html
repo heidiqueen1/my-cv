@@ -7,6 +7,9 @@
     <title>CvHeidi</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="fonts.css" rel="stylesheet" type="text/css"/>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
   </head>
   <body>
     <header>
@@ -27,7 +30,7 @@
           Academia Ada-School.org
         </p>
         <p>Ecuador-Freelancer</p>
-        <a id ="boton" href="https://portafolioheidiquee1.netlify.app/"><button><p>Portafolio</p></button></id=a>
+        <button class="boton"><a id="boton1" href="https://portafolioheidiquee1.netlify.app/"><p>Portafolio</p></a></button>
       </div>
       
     </header>
@@ -117,7 +120,7 @@
                  
                   </tr>
                   </tbody>
-              <script src="script.js"></script>
+              
             </table>
         </div>
       </section>
@@ -128,9 +131,13 @@
     <!-- Este será nuestra caja de contacto -->
     <div class="caja">
       <h3 style="color: aliceblue;"><strong>Dejame tus comentarios...</strong> </h3>
-      <input class="cajita" type="email" value="Email"/>
-      <textarea class="cajita" name="textarea" rows="10" cols="50">Deja tu mensaje por este canal</textarea>
-      <button class="cajita">Contáctame</button>
+      <input id="email" class="cajita" type="email" value="Email"/>
+      <textarea id="comentario" class="cajita" name="textarea" rows="10" cols="50">Deja tu mensaje por este canal</textarea>
+      <button id="btnEnviar" class="boton">Enviar</button>
     </div>
+
+    
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="opera.js"></script>
 </html>
