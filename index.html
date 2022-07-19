@@ -9,9 +9,18 @@
     <link href="fonts.css" rel="stylesheet" type="text/css"/>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
   </head>
+  <nav class="socialbar">
+    <a href="https://www.linkedin.com/in/heidi-s%C3%A1nchez-qa/" class="icon icon-linkedin" target="_blank"></a>
+    <a href="https://twitter.com/heidiletras" class="icon icon-twitter" target="_blank"></a>
+    <a href="https://github.com/heidiqueen1" class="icon icon-github" target="_blank"></a>
+    <a href="https://www.instagram.com/migracionexitosa/" class="icon icon-instagram" target="_blank"></a>
+    
+  </nav>
   <body>
+    <div class="supercontenedor">
     <header>
       <!-- Aquí irá la información del encabezado -->
       <div id="left">
@@ -34,14 +43,6 @@
       </div>
       
     </header>
-
-    <nav class="socialbar">
-      <a href="https://www.linkedin.com/in/heidi-s%C3%A1nchez-qa/" class="icon icon-linkedin" target="_blank"></a>
-      <a href="https://twitter.com/heidiletras" class="icon icon-twitter" target="_blank"></a>
-      <a href="https://github.com/heidiqueen1" class="icon icon-github" target="_blank"></a>
-      <a href="https://www.instagram.com/migracionexitosa/" class="icon icon-instagram" target="_blank"></a>
-      
-    </nav>
 
     <main>
       <section id="izquierda" class="contenedor2">
@@ -105,13 +106,13 @@
               <thead>
                 <tr>
                   <th><h3>INTERESES PROFESIONALES</h3></th>
-                  <th><h3>INTERES PERSONALES</h3></th>
+                  <th><h3>INTERESES PERSONALES</h3></th>
                 </tr>
               </thead><br>
             
               <tbody>
                 <tr>
-                  <td><p>Desarrollar un catálogo de emprendimiento virtual para migrantes</p></td>>
+                  <td><p>Desarrollar un catálogo de emprendimiento virtual para migrantes</p></td>
                   <td><p>Realizar actividades de voluntariado social</p></td>
                   
                 </tr>
@@ -131,10 +132,11 @@
     <!-- Este será nuestra caja de contacto -->
     <div class="caja">
       <h3 style="color: aliceblue;"><strong>Dejame tus comentarios...</strong> </h3>
-      <input id="email" class="cajita" type="email" value="Email"/>
-      <textarea id="comentario" class="cajita" name="textarea" rows="10" cols="50">Deja tu mensaje por este canal</textarea>
+      <input id="email" class="cajita" type="email" value="Email" placeholder="Introduce tu e-mail"/>
+      <textarea id="comentario" class="cajita" name="textarea" rows="10" cols="50" placeholder="Deja tu mensaje por este canal"></textarea>
       <button id="btnEnviar" class="boton">Enviar</button>
     </div>
+  </div>
 
     
   </body>

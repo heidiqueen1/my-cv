@@ -1,3 +1,12 @@
+.supercontenedor{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+
+
 :root {
     --primary-color: rgb(237, 49, 228);
     --text-color: hsl(0, 0%, 31%);
@@ -54,6 +63,7 @@ header{
     border-style: solid;
     border-color: #a53f9c;
     border-width: 0 10px 10px 0;
+    width: 100%;
     
       
 }
@@ -154,6 +164,8 @@ padding: 1em 0;
     border-color: #a53f9c;
     padding: 60px;
     border-width: 0 10px 10px 0;
+    width: 45%;
+    box-sizing: border-box;
 }
 .contenedor3{
     background-color: aliceblue;
@@ -163,6 +175,8 @@ padding: 1em 0;
     border-color: #a53f9c;
     padding: 60px;
     border-width: 0 10px 10px 0;
+    width: 55%;
+    box-sizing: border-box;
 
 }
 
@@ -216,6 +230,7 @@ padding: 1em 0;
 table, th, td{
     border: solid 3px;
     border-color: #a53f9c;
+    width: 30%;
 }
 #boton1{
     text-decoration: none;
